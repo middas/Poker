@@ -5,10 +5,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "..\..\..\..\Git Repo\CommonLibrary\CommonLibrary\CommonLibrary.csproj", "{DC3DD5C3-39DA-42B5-8B35-7BF7F41E6CE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards.Tests", "Cards.Tests\Cards.Tests.csproj", "{13ACCBCC-A4D8-4736-9493-4B772ED61091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F64403A6-3CAB-4F5C-875C-B051B69608B1}"
+	ProjectSection(SolutionItems) = preProject
+		Cards.vsmdi = Cards.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
 		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Cards.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +51,16 @@ Global
 		{DC3DD5C3-39DA-42B5-8B35-7BF7F41E6CE9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{DC3DD5C3-39DA-42B5-8B35-7BF7F41E6CE9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{DC3DD5C3-39DA-42B5-8B35-7BF7F41E6CE9}.Release|x86.ActiveCfg = Release|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{13ACCBCC-A4D8-4736-9493-4B772ED61091}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
